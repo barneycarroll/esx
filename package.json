@@ -1,0 +1,37 @@
+{
+  "name": "esx",
+  "version": "0.0.1",
+  "description": "A decent dev environment for front-end ES#",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "babel-node tests/index.js | tape-run | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/esx.git"
+  },
+  "keywords": [
+    "esnext",
+    "es2015",
+    "es3000",
+    "es6",
+    "es7",
+    "front-end",
+    "development",
+    "workflow",
+    "boilerplate"
+  ],
+  "author": "barney.carroll@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/esx/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/esx#readme",
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "browserify": "^12.0.1",
+    "faucet": "0.0.1",
+    "tape-run": "^2.1.0",
+    "watchify": "^3.6.0"
+  }
+}
